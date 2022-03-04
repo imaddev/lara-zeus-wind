@@ -21,24 +21,15 @@
     ],
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "imaddev/lara-zeus-core",
-                "version": "1.0.3",
-                "type": "wordpress-plugin",
-                "source": {
-                    "url": "https://github.com/imaddev/lara-zeus-core.git",
-                    "type": "git",
-                    "reference": "main"
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/imaddev/lara-zeus-core"
         }
     ],
     "require": {
         "php": "^8.0",
         "doctrine/dbal": "^3.3",
         "filament/filament": "^2.10",
-        "imaddev/lara-zeus-core": "^1.0.3"
+        "lara-zeus/core": "^1.0.3"
     },
     "require-dev": {
         "orchestra/testbench": "^7.0"
