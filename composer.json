@@ -23,7 +23,7 @@
         "php": "^8.0",
         "doctrine/dbal": "^3.3",
         "filament/filament": "^2.10",
-        "lara-zeus/core": "dev-main"
+        "imaddev/lara-zeus-core": "dev-main"
     },
     "require-dev": {
         "orchestra/testbench": "^7.0"
